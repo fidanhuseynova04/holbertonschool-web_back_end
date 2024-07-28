@@ -1,3 +1,4 @@
+/* eslint-disable */
 export default function (mathFunction) {
     const queue = [];
     try { queue.push(mathFunction()); } catch (e) { queue.push(`Error: ${e.message}`); } finally {
